@@ -36,7 +36,7 @@
     /* border:2px solid blue; */
 }
 #h{
-    font-size: 35px;
+    font-size: 55px;
     color: rgb(4, 7, 136);  
     font-family: calibri;
     font-weight: 900;
@@ -75,6 +75,20 @@
 }
 .cat{
     background-color: rgb(225,238,255);
+}
+.cat1{
+    background-image: url(../img/s2.jpg);
+}
+.cat1 #h{
+    color: white;
+    font-size: 80px;
+    font-family: Calibri,'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+}
+.cat1 li,.cat1 li a{
+    color:whitesmoke;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 .p_cat{
     color: blue;
@@ -361,7 +375,7 @@ h4, h5, h6, .h4, .h5, .h6 {
     position: relative;
     height: 100%;
     min-height: 400px;
-    background: linear-gradient(rgba(254, 218, 154, 0.1), rgba(254, 218, 154, 0.1)), url(../img/fact.jpg);
+    background: linear-gradient(rgba(254, 218, 154, 0.1), rgba(254, 218, 154, 0.1)), url(../img/s4.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
